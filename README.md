@@ -36,6 +36,6 @@ Overall, this project fulfills all requirements of Task 1 by showcasing API inte
 *SCREENSHOTS*:
 
 
-<img width="1920" alt="Screenshot 1" src="https://github.com/user-attachments/assets/506dc6ba-8131-4406-96b0-e79fdd35e246" /> 
+<img width="1920" alt="Screenshot 1" src="https://github.com/user-attachments/assets/506dc6ba-8131-4406-96b0-e79fdd35e246" /><br>
 
 <img width="1920" alt="Screenshot 2" src="https://github.com/user-attachments/assets/a86e0d48-5b13-48b5-8bff-6f92e525b8f8" />
