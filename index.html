@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>QuickWeather + LocalNews — CODTECH Task 1</title>
+  
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container" id="mainContent">
+    <h1>QuickWeather & LocalNews</h1>
+
+    <form id="searchForm" class="search" aria-label="Search city weather and news">
+      <input id="cityInput" type="search" placeholder="Enter city (e.g. Mumbai)" required />
+      <button type="submit">Search</button>
+    </form>
+
+    <section id="card" class="card hidden" aria-live="polite">
+      <div id="location" class="location"></div>
+      <div id="temp" class="temp"></div>
+      <div id="details" class="details"></div>
+    </section>
+
+    <section id="newsSection" class="card hidden" aria-live="polite">
+      <h2 class="news-title">Latest news</h2>
+      <ul id="newsList" class="news-list"></ul>
+      <div id="newsMore" class="news-more"></div>
+    </section>
+
+    <div id="status" class="status" role="status"></div>
+  </main>
+
+  
+  <footer class="fixed-footer" role="contentinfo" aria-label="Site copyright">
+    <div class="fixed-inner">
+      <span>© <span id="year"></span> QuickWeather By Abishek M</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
