@@ -25,6 +25,25 @@ From a technical perspective, the project highlights key concepts such as workin
 
 Overall, this project fulfills all requirements of Task 1 by showcasing API integration, responsive UI design, real-time data rendering, and strong full-stack development fundamentals. It also reflects practical problem-solving, creativity, and technical clarity—skills essential for modern web development.
 
+*Steps to Run*:
+<ol>
+  <li>git clone https://github.com/abishekM1732/API-INTEGRATION.git and cd API-INTEGRATION</li>
+
+  <li>Open the project folder in any code editor (VS Code recommended)</li>
+
+  <li>Locate the main HTML file (index.html)</li>
+
+  <li>Open index.html in a web browser</li>
+
+  <li>Enter a city name in the input field</li>
+
+  <li>The application will fetch real-time weather data from the public API</li>
+
+  <li>Relevant news headlines related to the searched city will be displayed dynamically</li>
+
+  <li>Ensure an active internet connection for API data fetching</li>
+</ol>
+
 *Features*:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <ul> <li>🔍 Search for any city worldwide</li> <li>🌦️ Fetches temperature, wind speed, direction, and weather code via Open-Meteo API</li> <li>📰 Displays live news articles related to the searched city using Google News RSS (via AllOrigins CORS proxy)</li> <li>📱 Fully responsive UI for mobile, tablet, and desktop</li> <li>🎨 Smooth, modern glass-UI interface for improved user experience</li> <li>🔒 Error handling with clean fallback messages</li> </ul>
